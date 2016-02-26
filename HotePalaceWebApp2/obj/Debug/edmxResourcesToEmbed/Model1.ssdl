@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="p3120038Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Countries">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HotelMaster">
+    <Key>
+      <PropertyRef Name="HotelID" />
+    </Key>
+    <Property Name="HotelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HotelArea" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="HotelName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="LocLat" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LocLong" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ReadMoreUrl" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reserves">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="RoomID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="Price" Type="real" />
+  </EntityType>
+  <EntityType Name="RoomCategory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="PricePerNight" Type="real" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rooms">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Floor" Type="int" Nullable="false" />
+    <Property Name="Beds" Type="int" Nullable="false" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="10" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="PassWord" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Country" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Class" Type="int" />
+  </EntityType>
+  <Association Name="FK_Reserves_Rooms">
+    <End Role="Rooms" Type="Self.Rooms" Multiplicity="1" />
+    <End Role="Reserves" Type="Self.Reserves" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rooms">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reserves">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reserves_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Reserves" Type="Self.Reserves" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reserves">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rooms_RoomCategory">
+    <End Role="RoomCategory" Type="Self.RoomCategory" Multiplicity="1" />
+    <End Role="Rooms" Type="Self.Rooms" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RoomCategory">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Rooms">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserDetails_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UserDetails" Type="Self.UserDetails" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UserDetails">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="p3120038Model1StoreContainer">
+    <EntitySet Name="Countries" EntityType="Self.Countries" Schema="Website" store:Type="Tables" />
+    <EntitySet Name="HotelMaster" EntityType="Self.HotelMaster" Schema="Website" store:Type="Tables" />
+    <EntitySet Name="Reserves" EntityType="Self.Reserves" Schema="Website" store:Type="Tables" />
+    <EntitySet Name="RoomCategory" EntityType="Self.RoomCategory" Schema="Website" store:Type="Tables" />
+    <EntitySet Name="Rooms" EntityType="Self.Rooms" Schema="Website" store:Type="Tables" />
+    <EntitySet Name="UserDetails" EntityType="Self.UserDetails" Schema="Website" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="Website" store:Type="Tables" />
+    <AssociationSet Name="FK_Reserves_Rooms" Association="Self.FK_Reserves_Rooms">
+      <End Role="Rooms" EntitySet="Rooms" />
+      <End Role="Reserves" EntitySet="Reserves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reserves_Users" Association="Self.FK_Reserves_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Reserves" EntitySet="Reserves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rooms_RoomCategory" Association="Self.FK_Rooms_RoomCategory">
+      <End Role="RoomCategory" EntitySet="RoomCategory" />
+      <End Role="Rooms" EntitySet="Rooms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserDetails_Users" Association="Self.FK_UserDetails_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserDetails" EntitySet="UserDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

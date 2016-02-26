@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11765e348ae441dbb78a18ede3b1ce73" Name="Diagram1">
+        <EntityTypeShape EntityType="p3120038Model1.Countries" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="p3120038Model1.HotelMaster" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="p3120038Model1.Reserves" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="p3120038Model1.RoomCategory" Width="1.5" PointX="1.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="p3120038Model1.Rooms" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="p3120038Model1.UserDetails" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="p3120038Model1.Users" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="p3120038Model1.FK_Reserves_Rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="p3120038Model1.FK_Reserves_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="p3120038Model1.FK_Rooms_RoomCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="p3120038Model1.FK_UserDetails_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

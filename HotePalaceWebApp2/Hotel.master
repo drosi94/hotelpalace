@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Hotel" Codebehind="Hotel.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Hotel Palace</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+	
+</head>
+
+<body>
+    <form id="form1" runat="server">
+  <div id="wrapper">
+    <div id="header"> </div>
+    <div id="left">
+      <div id="logo">
+        <h1>Hotel Palace</h1>
+        <p>Have A Nice Stay</p>
+      </div>
+      <div id="nav">
+        <ul>
+          <li class="important"><a href="Home.aspx">Home</a></li>
+          <li><a href="AboutUs.aspx">About Us</a></li>
+          <li><a href="Photos.aspx">Photos</a></li>
+          <li><a href="Reserve.aspx">Reserve</a></li>
+          <li><a href="ContactUs.aspx">Contact us</a></li>
+        </ul>
+      </div>
+      <div id="news">
+        <h2>Links</h2>
+          <p>
+              <asp:HyperLink ID="registerHL" runat="server" NavigateUrl="~/Register.aspx">Register</asp:HyperLink>
+          </p>
+          <p>
+              <asp:HyperLink ID="logInHL" runat="server" NavigateUrl="~/Login.aspx">Log In</asp:HyperLink>
+          </p>
+          <p>
+              <asp:HyperLink ID="manageProfileHL" runat="server" NavigateUrl="~/ManageProfile.aspx">Manage Profile</asp:HyperLink>
+          </p>
+          <p>
+              <asp:HyperLink ID="adminHL" runat="server" NavigateUrl="~/Manager.aspx">Admin</asp:HyperLink>
+          </p>
+      </div>
+      <div id="support">
+        <p>Call: +3265-9856-789</p>
+      </div>
+    </div>
+    <div id="right">
+      <h2>Welcome to Our Site,
+          <asp:Label ID="userNameLabel" runat="server" Text=""></asp:Label>
+          !</h2>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolderMaster" runat="server">
+          
+      </asp:ContentPlaceHolder>
+    </div>
+    <div class="clear"> </div>
+    <div id="spacer"> </div>
+    <div id="footer">
+      <div id="copyright">
+        Copyright &copy; 2015 Hotel Palace All right reserved. <br />
+          Βασίλης Δροσάτος 3120038</div>
+	  <div id="footerline"></div>
+    </div>
+	
+  </div>
+    </form>
+</body>
+</html>

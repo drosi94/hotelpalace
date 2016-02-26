@@ -1,0 +1,77 @@
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\obj\Debug\HotePalaceWebApp2.csprojResolveAssemblyReference.cache
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\HotePalaceWebApp2.dll.config
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\HotePalaceWebApp2.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\HotePalaceWebApp2.pdb
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Antlr3.Runtime.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Newtonsoft.Json.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Owin.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\System.Web.Optimization.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\System.Web.Providers.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\WebGrease.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\System.Web.Optimization.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Antlr3.Runtime.pdb
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Newtonsoft.Json.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\EntityFramework.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\EntityFramework.SqlServer.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\System.Web.Providers.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\obj\Debug\HotePalaceWebApp2.dll
+C:\Users\drosi\Documents\Visual Studio 2013\Projects\HotelPalaceWebApplication\HotelPalaceWebApplication2\HotePalaceWebApp2\HotePalaceWebApp2\obj\Debug\HotePalaceWebApp2.pdb
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\HotePalaceWebApp2.dll.config
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\HotePalaceWebApp2.dll
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\HotePalaceWebApp2.pdb
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Newtonsoft.Json.dll
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\System.Web.Optimization.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Antlr3.Runtime.pdb
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\EntityFramework.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\EntityFramework.SqlServer.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\System.Web.Providers.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\obj\Debug\HotePalaceWebApp2.csprojResolveAssemblyReference.cache
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\obj\Debug\HotePalaceWebApp2.dll
+C:\Users\drosi\Desktop\HotelPalace\HotePalaceWebApp2\obj\Debug\HotePalaceWebApp2.pdb
